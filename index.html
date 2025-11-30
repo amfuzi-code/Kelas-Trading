@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Trade | Master Technical Analysis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader" id="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <nav>
+        <div class="logo">
+            <i class="fas fa-chart-line logo-icon"></i>
+            OZI<span>FX</span>
+        </div>
+        
+        <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+        <div class="nav-links" id="navLinks">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">Metode</a>
+            <a href="#pricing" class="nav-link">Kelas</a>
+            <a href="https://t.me/INB_FX" target="_blank" class="nav-link telegram-link">Join Telegram</a>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-bg-elements">
+            <div class="glow-spot"></div>
+        </div>
+        
+        <div class="hero-text">
+            <h4>#1 Technical Analysis Class</h4>
+            <h1>Jangan<br>Menebak. <span style="color:var(--accent-cyan)">Mulailah Menganalisa</span></h1>
+            <p>Stop kebiasaan "Full Margin" di market. Pelajari Price Action, Supply & Demand, dan kelola psikologi trading Anda bersama mentor berpengalaman.</p>
+            <div class="btn-group">
+                <a href="#pricing" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i>
+                    Pilih Kelas
+                </a>
+                <a href="#about" class="btn btn-outline">
+                    <i class="fas fa-book-open"></i>
+                    Pelajari Dulu
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="chart-container">
+                <div class="chart-header">
+                    <div class="chart-title">LIVE CHART SIMULATION</div>
+                    <div class="chart-indicators">
+                        <div class="indicator"></div>
+                        <div class="indicator"></div>
+                        <div class="indicator"></div>
+                    </div>
+                </div>
+                <div class="candle-wrapper">
+                    <div class="candle c1"></div>
+                    <div class="candle green c2"></div>
+                    <div class="candle c3"></div>
+                    <div class="candle green c4"></div>
+                    <div class="candle c5"></div>
+                    <svg style="position:absolute; bottom:0; left:0; width:100%; height:100%; opacity:0.3;">
+                        <path d="M0,250 Q60,200 120,150 T240,50" fill="none" stroke="#64ffda" stroke-width="2"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="stats-bar" id="statsBar">
+        <div class="stat-item">
+            <span class="stat-num">350+</span>
+            <div class="stat-label">Active Traders</div>
+        </div>
+        <div class="stat-item">
+            <span class="stat-num">71%</span>
+            <div class="stat-label">Win Rate Avg</div>
+        </div>
+        <div class="stat-item">
+            <span class="stat-num">Daily</span>
+            <div class="stat-label">Market Map</div>
+        </div>
+        <div class="stat-item">
+            <span class="stat-num">24/7</span>
+            <div class="stat-label">Support</div>
+        </div>
+    </div>
+
+    <section id="about" class="info-section">
+        <div class="info-box">
+            <h3>Bukan Sekedar Sinyal, <br>Tapi <span class="highlight-text">Edukasi.</span></h3>
+            <p>Banyak grup trading hanya memberikan sinyal "Buy" atau "Sell" tanpa alasan. Di sini, Anda akan belajar <strong>KENAPA</strong> kita mengambil posisi tersebut.</p>
+            <p>Kami menggunakan metode <em>Pure Price Action</em> dikombinasikan dengan pemahaman struktur market yang mendalam. Tidak ada indikator ajaib, hanya kemampuan membaca pergerakan harga.</p>
+        </div>
+        <div class="info-box">
+            <div class="info-features">
+                <p><span class="check">✓</span> <strong>Market Structure:</strong> Memahami arah tren sebenarnya.</p>
+                <p><span class="check">✓</span> <strong>Liquidity:</strong> Mengetahui di mana institusi besar meletakkan uang.</p>
+                <p><span class="check">✓</span> <strong>Risk Management:</strong> Cara agar akun Anda bertahan seumur hidup.</p>
+                <p><span class="check">✓</span> <strong>Psikologi Trading:</strong> Kendalikan emosi, tingkatkan profit konsisten.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing-section" id="pricing">
+        <h2 class="section-title"><span>Pilih Paket Belajar</span></h2>
+        
+        <div class="pricing-container">
+            <div class="card">
+                <div class="plan-name">
+                    <i class="fas fa-star"></i>
+                    Starter Pack
+                </div>
+                <div class="price free">FREE <span>/ selamanya</span></div>
+                <ul class="features">
+                    <li><span class="check">✔</span> Akses Grup Umum Telegram</li>
+                    <li><span class="check">✔</span> Materi Basic (E-Book/PDF)</li>
+                    <li><span class="check">✔</span> Weekly Market Outlook</li>
+                    <li><span class="cross">✘</span> Tidak ada Sinyal Harian</li>
+                    <li><span class="cross">✘</span> Tidak ada Mentoring Privat</li>
+                    <li><span class="cross">✘</span> Tidak ada Live Zoom</li>
+                </ul>
+                <a href="https://t.me/INB_FX" class="card-btn btn-free">BASIC CLASS</a>
+            </div>
+
+            <div class="card premium">
+                <div class="premium-badge">BEST VALUE</div>
+                <div class="plan-name">
+                    <i class="fas fa-crown"></i>
+                    Private Channel
+                </div>
+                <div class="price paid">100K <span>/ bulan</span></div>
+                <ul class="features">
+                    <li><span class="check">✔</span> <strong>Full Access</strong> Premium Channel</li>
+                    <li><span class="check">✔</span> Sinyal Forex & Crypto Harian</li>
+                    <li><span class="check">✔</span> Live Belajar Analisa Market</li>
+                    <li><span class="check">✔</span> Full Materi (Basic to Advance)</li>
+                    <li><span class="check">✔</span> Konsultasi Portofolio</li>
+                    <li><span class="check">✔</span> Psikologi Trading Mastery</li>
+                </ul>
+                <a href="https://t.me/INB_VIP_FX" class="card-btn btn-premium">VIP CLASS</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>Trading Forex & Crypto mengandung risiko tinggi. Pastikan Anda memahami risiko sebelum bertransaksi.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">Metode</a>
+                <a href="#pricing">Kelas</a>
+                <a href="https://t.me/amdfuzi" target="_blank">Telegram</a>
+            </div>
+            <p>&copy; 2025 Ozi FX. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
